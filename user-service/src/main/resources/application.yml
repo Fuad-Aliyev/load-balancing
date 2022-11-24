@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: 12
+    topic:
+      userCreated: USER_CREATED_TOPIC
